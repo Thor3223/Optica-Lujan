@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gafas</title>
+    <link rel="stylesheet" href="Menu Desplegable.css">
+    <link rel="stylesheet" href="Gafas.css">
+    
+
+</head>
+<body>
+<header id="titulo"> <img src="logo.png" width="300px">
+    <nav>
+        <ul class="menu-horizontal">
+            <li><a href="Menu desplegable.html"> Inicio </a></li>
+            <li><a href="#"> Servicios </a>
+                <ul class="menu-vertical">
+                    <li><a href="#">Graduación</Html></a></li>
+                    <li><a href="#">Reparación</a></li>
+                    <li><a href="Gafas.html">Gafas</a></li>
+                    <li><a href="#">Otros Productos</a></li>
+                </ul>
+            </li>
+
+            <li><a href="#"> Identifícate </a>
+                <ul class="menu-vertical">
+                    <li><a href="#">Inicia Sesión</Html></a></li>
+                    <li><a href="#">Regístrate</a></li>
+                </ul>
+            
+            </li>
+
+            <li><a href="#"> Contacto </a></li>
+            <li class="carrito"><a href="#"> <img id="carritoimg"  src="carrito.png" > </a>
+                   <div id="carrito">
+                    <table id="menu-carrito">
+                      <thead>
+                        <tr>
+                           <th> Imagen </th>
+                           <th> Nombre</th>
+                           <th> Precio</th>
+                           <th> Cantidad</th>
+                           <th></th>
+                        </tr>
+                      </thead>
+                      <tbody></tbody>
+                    </table>
+                
+                    <button id="VACIAR">VACIAR CARRITO</button>
+                   </div> 
+            </li>
+        </ul>
+
+    </nav>  
+
+</header>
+
+
+<main id="main">
+
+    <div>
+        <h1 class="CabeceraPagina"> Nuestra oferta de mejores gafas </h1>
+    </div>
+    <div id="listaGafas">
+
+      <div class="oferta g1">
+       <img src="Aviator.jpg" class="foto">
+       <div class="infoCard">
+         <h3>Gafas Aviator</h3><br>
+         <p class="precio"> <del>$300</del>  <span>$225</span></p>
+         <br>
+         <button class="añadir-carrito"> Añadir al carrito</button>
+       </div>
+      </div>
+
+      <div class="oferta g2">
+        <img src="Anisjpg.jpg" class="foto">
+         <div class="infoCard">
+           <h3>Gafas Anis</h3><br>
+           <p class="precio"> <del>$125</del> <span>$95</span></p>
+           <br>
+         <button class="añadir-carrito"> Añadir al carrito</button>
+         </div>
+      </div>
+
+      <div class="oferta g3">
+            <img src="Carrera.jpg" class="foto">
+             <div class="infoCard">
+               <h3>Gafas Carrera</h3><br>
+               <p class="precio"> <del>$200</del>  <span>$150</span></p>
+               <br>
+         <button class="añadir-carrito"> Añadir al carrito</button>
+             </div>
+      </div>
+
+      <div class="oferta g4">
+            <img src="GaetaSun.jpg" class="foto">
+             <div class="infoCard">
+               <h3>Gafas Gaeta Sun</h3><br>
+               <p class="precio"> <del>$185</del>  <span>$140</span></p>
+               <br>
+         <button class="añadir-carrito"> Añadir al carrito</button>
+             </div>
+      </div>
+      
+      <div class="oferta g5">
+                  <img src="Murray.jpg" class="foto">
+             <div class="infoCard">
+               <h3>Gafas Murray</h3><br>
+               <p class="precio"> <del>$150</del>  <span>$115</span></p>
+               <br>
+         <button class="añadir-carrito"> Añadir al carrito</button>
+             </div>
+      </div>
+      <div class="oferta g6">
+                 <img src="RayBan.jpg" class="foto">
+             <div class="infoCard">
+               <h3>Gafas RayBan</h3><br>
+               <p class="precio"> <del>$250</del>  <span>$195</span></p>
+               <br>
+         <button class="añadir-carrito"> Añadir al carrito</button>
+             </div>
+      </div>
+    </div>  
+
+
+</main>
+
+<script src="Carrito.js"></script>
+</body>
+</html>

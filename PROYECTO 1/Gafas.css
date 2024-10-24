@@ -1,0 +1,47 @@
+
+.CabeceraPagina{
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+
+}
+
+#listaGafas{
+    border:2px;
+    width: 80%;
+    
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.oferta{
+    background-color: #1f6034 ;
+    margin-top: 50px;
+    text-align: center;
+    
+    
+}
+
+.oferta:hover{
+    box-shadow: 0 0.9rem 10rem #568C63;
+}
+
+
+.foto{
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+}
+
+button{
+    background-color: #568C63;
+    width: 150px;
+    height: 25px;
+    cursor: pointer;
+}
+
+
